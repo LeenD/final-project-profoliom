@@ -1,0 +1,55 @@
+@media screen and (min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    
+}
+
+  
+.textbox-intro {
+    height: 20%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+
+}
+      
+ 
+
+
+.textbox-about {
+    height: auto;
+    padding-top: 40px;
+    text-align: center;
+    background: rgb(139, 77, 62);
+    color: #eee
+}
+
+.textbox-see {
+    height: auto;
+    padding-top: 40px;
+    text-align: center;
+    background: rgb(115, 42, 38);
+    color: #eee;
+    text-align: left;
+    word-spacing: 2px;
+    box-shadow: none;
+}
+.textbox-do {
+    height: auto;
+    padding-top: 40px;
+    text-align: center;
+    background: rgb(186, 193, 189);
+    color: #eee;
+}
+
+.textbox-bye {
+  height: auto;
+  padding-top: 40px;
+  text-align: center;
+  background: #fff;
+}

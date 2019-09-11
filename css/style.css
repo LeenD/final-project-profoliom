@@ -1,0 +1,136 @@
+body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+
+
+
+
+
+#logo{
+  background-image: url("../img/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 30%;
+  animation-name: logo ;
+  animation-duration: 2s;
+}
+  
+
+  
+
+@keyframes logo {
+  0% {padding: 0;  height: 0%;  }
+  50% { padding :30px;   height: 15%;  }
+  100% { padding: 50px;  height: 30%;  }
+}
+
+.textbox {
+    position: relative;
+    height: auto;
+    background: white;
+    padding: 50px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    z-index: 20;
+    box-shadow: 0 0 20px rgba(211, 214, 216, 0.5);
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+
+    
+}
+
+
+
+.artbox {
+    height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+    z-index: 10;
+
+}
+
+.senior{
+  font-style: italic;
+  font-weight: bold;
+  color:#a36f59;
+}
+
+.curious{
+  color: rgb(224, 191, 152);
+  
+  }
+  .but {
+    color: rgb(224, 191, 152);
+    background-color: rgba(255, 200, 0, 0);
+    font-weight: 400;
+    font-size: 30px;
+      border: none;
+  }
+
+.hoppy{
+  color: rgb(224, 191, 152);
+  font-size: 25px;
+}
+
+p{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+
+
+
+
+#art1{
+    background-image: url("../img/sketch1.jpg");
+  }
+
+#art2{
+    background-image: url("../img/sketch2.jpg");
+  }
+
+  #art3{
+    background-image: url("../img/sketch3.jpg");
+  }
+  
+  #art4{
+    background-image: url("../img/world.png");
+  }
+
+
+
+.bye{
+  color: rgb(186, 193, 189);
+  padding: 30px;
+  font-size: 30px;
+}
+
+
+  .mail{
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px; 
+    
+
+  }
+
+  .linkedin{
+    background-image: url("../img/linkedin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px; 
+    
+  }
+
+ 
